@@ -99,3 +99,8 @@ section {
 #img-13 {background-image: url("img/1.jpeg");}
 #img-14 {background-image: url("img/2.jpeg");}
 #img-15 {background-image: url("img/3.jpeg");}
+
+#identidad-img {
+    width: 100%;
+    padding-top: 10%;
+}
