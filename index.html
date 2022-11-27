@@ -9,24 +9,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap" rel="stylesheet">
+    <script   src="https://code.jquery.com/jquery-3.6.1.min.js"   integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="   crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav>
+    <nav style="color: white;">
         <a href="identidad.html">Identidad</a>
-        <a href="#"><img src="img/bieno.png" alt="Bieno"></a>
         <a href="shop.html">Shop</a>
     </nav>
+    <a id="bieno-logo" href="#"><img src="img/bieno.png" alt="Bieno"></a>
 
     <div class="container">
-        <section id="home">
-            <video autoplay muted loop id="video">
-                <source src="video/video.mp4" type="video/mp4">
-            </video>
-            <div class="row">
-                <div class="btn">MISIÓN 0</div>
+        <section class="section-img" id="img-1" style="position: relative;">
+            <div style="position: absolute; top: 90px; color: white; display: flex; width: 100%; justify-content: center; font-size: 22px; font-weight: bold;">
+                MISIÓN 0
+            </div>
+            <div  style="position: absolute; top: 180px; display: flex; width: 100%; justify-content: center;">
+
+                <div id="view" class="btn">Ver video</div>
             </div>
         </section>
-        <section class="section-img" id="img-1"></section>
         <section class="section-img" id="img-2"></section>
         <section class="section-img" id="img-3"></section>
         <section class="section-img" id="img-4"></section>
@@ -49,12 +50,24 @@
         <section class="section-img" id="img-21"></section>
         <section class="section-img" id="img-22"></section>
         <section class="section-img" id="img-23"></section>
-        <section class="section-img" id="img-24">
-            <a class="row" href="pdf/CATALOGO.pdf" download>
+        <section class="section-img" id="img-24" style="position: relative;">
+            <a class="row" href="pdf/CATALOGO.pdf" download style="position: absolute;">
                 <div class="btn">DESCARGAR CATÁLOGO</div>
             </a>
         </section>
         
     </div>
+
+    <div id="video-pop" style="display: none; position: absolute; top: 0;">
+        <div style="background-color: rgba(0, 0, 0, 0.671); width: 100vw; height: 100vh; top: 30%; position: absolute;">
+            <iframe width="100%" height="300" src="https://www.youtube.com/embed/YxzRgLfrXlc?autoplay=1"></iframe>
+        </div>
+    </div>
 </body>
+
+<script>
+    $('#view').click(function() {
+        $('#video-pop').show()
+    })
+</script>
 </html>
