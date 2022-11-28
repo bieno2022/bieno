@@ -63,6 +63,11 @@ section {
     padding-bottom: 15%;
 }
 
+#model-3d model-viewer {
+    width: 100%;
+    height: 80%;
+}
+
 .shop-section img {
     width: 50%;
     height: 50%;
