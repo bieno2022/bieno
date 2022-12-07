@@ -148,6 +148,11 @@ section {
         height: 50%;
         object-fit: cover;
     }
+
+    #identidad-img {
+        width: 100%;
+        padding-top: 10%;
+    }
 }
 
 @media (min-width: 768px) {
@@ -190,10 +195,17 @@ section {
         height: 100%;
         object-fit: cover;
     }
+
+    .identidad-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #identidad-img {
+        width: 50%;
+        padding-top: 5%;
+    }
 }
 
 
-#identidad-img {
-    width: 100%;
-    padding-top: 10%;
-}
