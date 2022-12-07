@@ -119,30 +119,60 @@ section {
     background-size: cover;
 }
 
-#img-1 {background-image: url("img/1.jpeg");}
-#img-2 {background-image: url("img/2.jpeg");}
-#img-3 {background-image: url("img/3.jpeg");}
-#img-4 {background-image: url("img/4.jpeg");}
-#img-5 {background-image: url("img/5.jpeg");}
-#img-6 {background-image: url("img/6.jpeg");}
-#img-7 {background-image: url("img/7.jpeg");}
-#img-8 {background-image: url("img/8.jpeg");}
-#img-9 {background-image: url("img/9.jpeg");}
-#img-10 {background-image: url("img/10.jpeg");}
-#img-11 {background-image: url("img/11.jpeg");}
-#img-12 {background-image: url("img/12.jpeg");}
-#img-13 {background-image: url("img/13.jpeg");}
-#img-14 {background-image: url("img/14.jpeg");}
-#img-15 {background-image: url("img/15.jpeg");}
-#img-16 {background-image: url("img/16.jpeg");}
-#img-17 {background-image: url("img/17.jpeg");}
-#img-18 {background-image: url("img/18.jpeg");}
-#img-19 {background-image: url("img/19.jpeg");}
-#img-20 {background-image: url("img/20.jpeg");}
-#img-21 {background-image: url("img/21.jpeg");}
-#img-22 {background-image: url("img/22.jpeg");}
-#img-23 {background-image: url("img/23.jpeg");}
-#img-24 {background-image: url("img/24.jpeg");}
+@media (max-width: 768px) {
+    #img-1 {background-image: url("img/1.jpeg");}
+    #img-2 {background-image: url("img/2.jpeg");}
+    #img-3 {background-image: url("img/3.jpeg");}
+    #img-4 {background-image: url("img/4.jpeg");}
+    #img-5 {background-image: url("img/5.jpeg");}
+    #img-6 {background-image: url("img/6.jpeg");}
+    #img-7 {background-image: url("img/7.jpeg");}
+    #img-8 {background-image: url("img/8.jpeg");}
+    #img-9 {background-image: url("img/9.jpeg");}
+    #img-10 {background-image: url("img/10.jpeg");}
+    #img-11 {background-image: url("img/11.jpeg");}
+    #img-12 {background-image: url("img/12.jpeg");}
+    #img-13 {background-image: url("img/13.jpeg");}
+    #img-14 {background-image: url("img/14.jpeg");}
+    #img-15 {background-image: url("img/15.jpeg");}
+    #img-16 {background-image: url("img/16.jpeg");}
+    #img-17 {background-image: url("img/17.jpeg");}
+    #img-18 {background-image: url("img/18.jpeg");}
+    #img-19 {background-image: url("img/19.jpeg");}
+    #img-20 {background-image: url("img/20.jpeg");}
+    #img-21 {background-image: url("img/21.jpeg");}
+    #img-22 {background-image: url("img/22.jpeg");}
+    #img-23 {background-image: url("img/23.jpeg");}
+    #img-24 {background-image: url("img/24.jpeg");}
+}
+
+@media (min-width: 768px) {
+    #img-1 {background-image: url("img/FOTOS-00.jpg");}
+    #img-2 {background-image: url("img/FOTOS-01.jpg");}
+    #img-3 {background-image: url("img/FOTOS-02.jpg");}
+    #img-4 {background-image: url("img/FOTOS-03.jpg");}
+    #img-5 {background-image: url("img/FOTOS-04.jpg");}
+    #img-6 {background-image: url("img/FOTOS-05.jpg");}
+    #img-7 {background-image: url("img/FOTOS-06.jpg");}
+    #img-8 {background-image: url("img/FOTOS-07.jpg");}
+    #img-9 {background-image: url("img/FOTOS-08.jpg");}
+    #img-10 {display: none;}
+    #img-11 {display: none;}
+    #img-12 {display: none;}
+    #img-13 {display: none;}
+    #img-14 {display: none;}
+    #img-15 {display: none;}
+    #img-16 {display: none;}
+    #img-17 {display: none;}
+    #img-18 {display: none;}
+    #img-19 {display: none;}
+    #img-20 {display: none;}
+    #img-21 {display: none;}
+    #img-22 {display: none;}
+    #img-23 {display: none;}
+    #img-24 {background-image: url("img/FOTOS-09.jpg");}
+
+}
 
 
 #identidad-img {
