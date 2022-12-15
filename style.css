@@ -99,6 +99,19 @@ section {
 }
 
 @media (max-width: 768px) {
+
+    .position-close-video-button {
+        bottom: 20%;
+    }
+
+    .iframe-div {
+        top: 40%;
+    }
+
+    iframe {
+        height: 150px;
+    }
+
     #img-1 {background-image: url("img/1.jpeg");}
     #img-2 {background-image: url("img/2.jpeg");}
     #img-3 {background-image: url("img/3.jpeg");}
@@ -167,6 +180,19 @@ section {
 }
 
 @media (min-width: 768px) {
+
+    .position-close-video-button {
+        bottom: 5%;
+    }
+
+    .iframe-div {
+        top: 15%;
+    }
+
+    iframe {
+        height: 700px;
+    }
+
     #img-1 {background-image: url("img/FOTOS-00.jpg");}
     #img-2 {background-image: url("img/FOTOS-01.jpg");}
     #img-3 {background-image: url("img/FOTOS-02.jpg");}
