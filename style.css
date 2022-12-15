@@ -162,11 +162,11 @@ section {
     .btn-2 {
         cursor: pointer;
         padding: 10px 30px;
-        background-color: rgb(5, 22, 251);
-        color: white;
+        background-color: rgba(255, 255, 255, 0.8);
+        color: rgb(5, 22, 251);
         position: absolute;
         bottom: 20%;
-        border-radius: 10px;
+        border-radius: 20px;
         font-weight: bold;
         position: absolute; 
         width: 60%; 
@@ -248,15 +248,15 @@ section {
     .btn-2 {
         cursor: pointer;
         padding: 20px 40px;
-        background-color: rgb(5, 22, 251);
-        color: white;
+        background-color: rgba(255, 255, 255, 0.8);
+        color: rgb(5, 22, 251);
         position: absolute;
-        border-radius: 10px;
+        border-radius: 40px;
         font-weight: bold;
         position: absolute; 
         bottom: 20%;
-        width: 20%; 
-        left: 40%; 
+        width: 16%; 
+        left: 42%; 
         text-align: center;
     }
 
